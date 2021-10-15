@@ -10,3 +10,7 @@ In a terminal of your choice with python installed, use the following instructio
 On Unix systems you can pipe the output directly into a file like this:
 
 `python rev.py bitstream.ttf > bitstream_reversed.tff`
+
+# Compatibility
+
+This script was tested with python versions 3.3.5 - 3.9.7
