@@ -1,13 +1,12 @@
 import os, csv, argparse
 
 parser = argparse.ArgumentParser(
-    description="FAL_net in pytorch",
+    description="quarev: Quartus FPGA Bit Stream Reversal Tool",
     formatter_class=argparse.ArgumentDefaultsHelpFormatter,
 )
 
 parser.add_argument(
-    "-p",
-    "--path_to_file",
+    "path_to_file",
     metavar="PATH",
     default="./data.tff",
     help="path to the file to be bit reversed",
